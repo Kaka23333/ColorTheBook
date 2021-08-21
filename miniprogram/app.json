@@ -1,24 +1,41 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/getOpenId/index",
-    "pages/getMiniProgramCode/index",
-    "pages/deployService/index",
-    "pages/createCollection/index",
-    "pages/uploadFile/index",
-    "pages/selectRecord/index",
-    "pages/updateRecord/index",
-    "pages/updateRecordResult/index",
-    "pages/updateRecordSuccess/index",
-    "pages/sumRecord/index",
-    "pages/sumRecordResult/index"
+    "pages/home/home",
+    "pages/book/book",
+    "pages/discover/discover",
+    "pages/me/me"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "唯书有色",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#c40000",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "images/tabs/home-default.png",
+      "selectedIconPath": "images/tabs/home-default.png"
+    }, {
+      "pagePath": "pages/book/book",
+      "text": "书库",
+      "iconPath": "images/tabs/book-default.png",
+      "selectedIconPath": "images/tabs/book-default.png"
+    },{
+      "pagePath": "pages/discover/discover",
+      "text": "发现",
+      "iconPath": "images/tabs/discover-default.png",
+      "selectedIconPath": "images/tabs/discover-default.png"
+    },{
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath": "images/tabs/me-default.png",
+      "selectedIconPath": "images/tabs/me-default.png"
+    }]
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2"
