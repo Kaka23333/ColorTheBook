@@ -1,5 +1,4 @@
 <!--pages/me/me.wxml-->
-<!-- 头部容器 -->
 <view class="head-container">
   <!-- 基本信息 -->
   <view class="basic-info">
@@ -11,7 +10,7 @@
   <!-- 头像 -->
   <image class="avatar-url" src="{{avatarUrl}}"></image>
 </view>
-<!-- 圆形容器 -->
+
 <view class="circle-container">
   <!-- 圆形列表 -->
   <view class="circle-list">
@@ -20,11 +19,17 @@
     <view class="circle"></view>
   </view>
 </view>
-<!-- 选项容器 -->
+
 <view class="option-container">
   <!-- 选项列表 -->
   <view class="option-list">
-  
+    <!-- 选项1 -->
+    <view class="option">
+      <!-- 选项图片 -->
+      <image class="option-img" src="../../images/me/store.png"></image>
+      <!-- 选项描述 -->
+      <view class="option-info">图书商城</view>
+    </view>
   </view>
 </view>
 
