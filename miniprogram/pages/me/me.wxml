@@ -1,2 +1,30 @@
 <!--pages/me/me.wxml-->
-<text>pages/me/me.wxml</text>
+<!-- 头部容器 -->
+<view class="head-container">
+  <!-- 基本信息 -->
+  <view class="basic-info">
+    <!-- 昵称 -->
+    <text class="nickname" bindtap="login">{{nickname}}</text>
+    <!-- 格言-->
+    <text class="motto">{{motto}}</text>
+  </view>
+  <!-- 头像 -->
+  <image class="avatar-url" src="{{avatarUrl}}"></image>
+</view>
+<!-- 圆形容器 -->
+<view class="circle-container">
+  <!-- 圆形列表 -->
+  <view class="circle-list">
+    <view class="circle"></view>
+    <view class="circle"></view>
+    <view class="circle"></view>
+  </view>
+</view>
+<!-- 选项容器 -->
+<view class="option-container">
+  <!-- 选项列表 -->
+  <view class="option-list">
+  
+  </view>
+</view>
+

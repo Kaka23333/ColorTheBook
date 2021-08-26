@@ -1,5 +1,9 @@
 //app.js
 App({
+  globalData: {
+    openId: null,
+  },
+  
   onLaunch: function () {
     if (!wx.cloud) {
       console.error('请使用 2.2.3 或以上的基础库以使用云能力')
@@ -13,7 +17,15 @@ App({
         traceUser: true,
       })
     }
-
-    this.globalData = {}
+    // 获取用户openId
+    wx.cloud.callFunction({
+      name:'getOpenId'
+    }).then(res => {
+      this.globalData = {
+        openId: res.result.openid
+      }
+      // console.log(this.globalData.openId);
+    })
+    // this.globalData = {}
   }
 })

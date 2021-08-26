@@ -1,1 +1,61 @@
 /* pages/me/me.wxss */
+
+.head-container {
+  display: flex;
+	justify-content: space-around;
+  height: 240rpx;
+  background-color: lightgreen;
+}
+
+.basic-info {
+  margin-top: 90rpx;
+  display: flex;
+	flex-direction: column;
+}
+
+.nickname {
+  font-size: 50rpx;
+}
+
+.motto {
+  font-size: 25rpx;
+}
+
+.avatar-url {
+  margin-top: 90rpx;
+  width: 140rpx;
+  height: 140rpx;
+}
+
+.circle-container {
+  height: 100rpx;
+  background-color: lightpink;
+}
+
+.circle-list {
+  margin-left: 40rpx;
+  margin-top: 40rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.circle {
+  margin-left: 20rpx;
+  border-radius: 50%;
+	width: 50rpx;
+  height: 50rpx;
+  background-color: lightgray;
+}
+
+.option-container {
+  height: 600rpx;
+  background-color: lightskyblue;
+}
+
+.option-list {
+  margin-top: 150rpx;
+  margin-left: 40rpx;
+  width: 680rpx;
+  height: 450rpx;
+  background-color: white;
+}

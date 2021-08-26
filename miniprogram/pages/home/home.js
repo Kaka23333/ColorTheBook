@@ -1,11 +1,14 @@
 // pages/home/home.js
+var currentDate = new Date();
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    
+    currentMonth: currentDate.getMonth() + 1,  // 月份
+    currentDayOfMonth: currentDate.getDate(),  // 日期
+    currentDayOfWeek: currentDate.getDay(),    // 周几
   },
 
   /**
