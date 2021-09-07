@@ -1,2 +1,26 @@
 <!--pages/discover/discover.wxml-->
-<text>pages/discover/discover.wxml</text>
+<view class="head">
+  <!-- 书摘 -->
+  <text class="excerpt">一句书摘</text>
+</view>
+
+<!-- 用户信息 -->
+<view class="user-info">
+  <!-- 昵称 -->
+  <text class="nickname">{{nickname}}</text>
+  <!-- 头像 -->
+  <image class="avatar" src="{{avatarUrl}}"></image>
+</view>
+
+<!-- 消息容器 -->
+<view class="news-container">
+
+</view>
+
+<!-- 选项容器 -->
+<view class="option-container">
+  <!-- 关注按钮 -->
+  <button class="follow-unchecked">关注</button>
+  <!-- 推荐按钮 -->
+  <button class="recommend-unchecked">推荐</button>
+</view>

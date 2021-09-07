@@ -43,6 +43,10 @@ Page({
         })
       }
     })
+    // 给全局变量赋值
+    // app.globalData.nickname = that.data.nickname
+    // app.globalData.avatarUrl = that.data.avatarUrl
+    // app.globalData.isLogin = that.data.isLogin
   },
 
   /**
