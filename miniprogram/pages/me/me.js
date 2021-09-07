@@ -2,7 +2,6 @@
 var app = getApp()
 var db = wx.cloud.database()  //获取数据库的引用
 var _ = db.command            //获取数据库查询及更新指令
-
 Page({
 
   /**
@@ -43,10 +42,6 @@ Page({
         })
       }
     })
-    // 给全局变量赋值
-    // app.globalData.nickname = that.data.nickname
-    // app.globalData.avatarUrl = that.data.avatarUrl
-    // app.globalData.isLogin = that.data.isLogin
   },
 
   /**

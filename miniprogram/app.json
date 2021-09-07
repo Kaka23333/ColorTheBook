@@ -1,10 +1,18 @@
 {
-  "pages": [
-    "pages/home/home",
-    "pages/book/book",
+  "pages": [  
+     "pages/home/home",
+      "pages/book/book",
+   
+
     "pages/discover/discover",
     "pages/me/me"
   ],
+  
+"permission": {
+  "scope.userLocation": {
+  "desc":"你的位置信息将用于小程序位置接口的效果展示"
+      }
+    },
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",

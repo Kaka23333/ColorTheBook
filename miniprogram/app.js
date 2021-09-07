@@ -2,9 +2,6 @@
 App({
   globalData: {
     openId: null,
-    nickname: "登入",
-    avatarUrl: "../../images/me/avatar-default.png",
-    isLogin: false,
   },
   
   onLaunch: function () {

@@ -24,4 +24,5 @@ page {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  background: -webkit-linear-gradient(top,rgb(235, 222, 200),#e7e0d6,white);
 }

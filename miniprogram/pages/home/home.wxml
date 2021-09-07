@@ -1,2 +1,17 @@
 <!--pages/home/home.wxml-->
 <text>{{openId}}</text>
+<button class='btn1' bindtap="selectlocation">位置</button>
+<view class  ="bookflex1">
+  <view  class="systemtime">{{time}}</view>
+  <!--搞个天气的api-->
+</view>
+<scroll-view class="scroll-box" scroll-x scroll-with-animation
+  scroll-into-view="{{toView}}"
+  bindtouchstart="touchStart"
+  bindtouchend="touchEnd">
+    <view wx:for="{{list}}" wx:key="{{item}}" class="card-box" id="card_{{index}}">
+      <view class="card">
+        <text>{{item}}</text>
+      </view>
+    </view>
+</scroll-view>

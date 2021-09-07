@@ -1,1 +1,44 @@
 /* pages/home/home.wxss */
+.bnt1{
+  width: 150em;
+  height: 20em;
+  text-align: center;
+  background-color: coral;
+}
+.bookflex1{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.systemtime{
+  width:240rpx;
+  height: 200rpx;
+  background: rgb(205, 242, 248);
+  font-style: oblique;
+}
+page{
+  overflow: hidden;
+}
+.scroll-box{
+  white-space: nowrap;
+  height: 105vh;
+}
+ 
+.card-box{
+  display: inline-block;
+  vertical-align:baseline;
+  justify-content: center;
+}
+ 
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 55vh;
+  width: 80vw;
+  margin: 5vh 10vw;
+  font-size: 40px;
+  background: #F8F2DC;
+  border-radius: 4px;
+}
