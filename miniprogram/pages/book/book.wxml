@@ -1,0 +1,23 @@
+<!--pages/book/book.wxml-->
+<view class='page_row' bindtap="suo">
+    <view class="search">
+      <view class="df search_arr">
+        <icon class="searchcion" size='20' type='search'></icon>
+        <input class="" disabled placeholder="               作者/书名/" value="{{searchValue}}"/>
+      </view>
+    </view>
+    <view class='sousuo'>搜索</view>
+  </view>
+<!--此处需要再来一个flex-->
+<view class="box">
+	<view class="textStyle01">
+	优美片段
+	</view>
+</view>
+  <view id = "book1">
+    <view id ="v2" class  ="v"></view>
+    <view id ="v3" class  ="v"></view>
+    <view id ="v4" class = "v"></view>
+
+
+  </view>
