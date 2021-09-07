@@ -36,7 +36,7 @@
     "minifyWXSS": true,
     "showES6CompileOption": false
   },
-  "appid": "wx7b29d1a755e02fa0",
+  "appid": "wx8f119a6e5e93da08",
   "projectname": "color-the-book",
   "libVersion": "2.14.1",
   "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
