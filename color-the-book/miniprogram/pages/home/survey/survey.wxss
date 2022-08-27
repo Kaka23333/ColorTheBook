@@ -1,0 +1,224 @@
+/* pages/home/survey/survey.wxss */
+
+page {
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.sand-clock {
+  width: 340rpx;
+  height: 340rpx;
+  position: absolute;
+  top: 260rpx;
+  left: 200rpx;
+}
+
+.prepare {
+  position: relative;
+  top: 620rpx;
+  font-family: 等线;
+  font-size: 50rpx;
+}
+
+.title {
+  position: absolute;
+  left: 50rpx;
+  top: 180rpx;
+  font-family: 等线;
+  font-size: 70rpx;
+}
+
+.title-eng {
+  position: absolute;
+  left: 50rpx;
+  top: 270rpx;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.one-1 {
+  width: 750rpx;
+  height: 650rpx;
+  position: absolute;
+  left: 10rpx;
+  top: 300rpx;
+}
+
+.login {
+  position: absolute;
+  left: 306rpx;
+  top: 910rpx;
+  font-family: 等线;
+  font-size: 65rpx;
+}
+
+.enter {
+  position: absolute;
+  left: 250rpx;
+  top: 910rpx;
+  font-family: 等线;
+  font-size: 65rpx;
+}
+
+.start {
+  position: absolute;
+  left: 200rpx;
+  top: 800rpx;
+  width: 130rpx;
+  height: 130rpx;
+}
+
+@keyframes slide-up-in {
+  from {
+    margin-top: 150%;
+  }
+  to {
+    margin-top: 0%;
+  }
+}
+
+@keyframes slide-up-out {
+  from {
+    margin-top: 0%;
+  }
+  to {
+    margin-top: -150%;
+  }
+}
+
+.ani {
+  animation-duration: 0.8s;
+  animation-name: slide-up-in;
+}
+
+#op-img {
+  width: 250rpx;
+  height: 250rpx;
+}
+
+#op-word {
+  font-family: 等线;
+}
+
+.choice1 {
+  position: absolute;
+  left: 60rpx;
+  top: 160rpx;
+
+}
+
+.choice1-w {
+  position: absolute;
+  transform: translate(-50%, 0%);
+  left: 185rpx;
+  top: 430rpx;
+}
+
+.choice2 {
+  position: absolute;
+  right: 60rpx;
+  top: 160rpx;
+}
+
+.choice2-w {
+  position: absolute;
+  transform: translate(50%, 0%);
+  right: 185rpx;
+  top: 430rpx;
+}
+
+.choice3 {
+  position: absolute;
+  left: 60rpx;
+  top: 540rpx;
+}
+
+.choice3-w {
+  position: absolute;
+  transform: translate(-50%, 0%);
+  left: 185rpx;
+  top: 820rpx;
+}
+
+.choice4 {
+  position: absolute;
+  right: 60rpx;
+  top: 540rpx;
+}
+
+.choice4-w {
+  position: absolute;
+  transform: translate(50%, 0%);
+  right: 185rpx;
+  top: 820rpx;
+}
+
+.question-w {
+  position: absolute;
+  left: 230rpx;
+  top: 1100rpx;
+  color: white;
+  font-family: 等线;
+  font-size: 45rpx;
+}
+
+.avatar-url {
+  position: absolute;
+  right: 60rpx;
+  top: 150rpx;
+  width: 180rpx;
+  height: 180rpx;
+}
+
+.nickname {
+  position: absolute;
+  transform: translate(50%, 0%);
+  right: 150rpx;
+  top: 340rpx;
+  font-size: 50rpx;
+}
+
+.soul-color-name {
+  position: absolute;
+  left: 60rpx;
+  top: 320rpx;
+  font-size: 66rpx;
+}
+
+.soul-color {
+  position: absolute;
+  left: 310rpx;
+  top: 345rpx;
+  width: 120rpx;
+  height: 50rpx;
+}
+
+.describe {
+  position: absolute;
+  left: 0rpx;
+  top: 390rpx;
+  margin: 80rpx;
+  font-size: 36rpx;
+}
+
+.book {
+  position: absolute;
+  transform: translate(-50%, 0%);
+  left: 230rpx;
+  top: 850rpx; 
+  font-size: 40rpx;
+}
+
+.book-img {
+  position: absolute;
+  right: 80rpx;
+  top: 700rpx;
+  width: 200rpx;
+  height: 282rpx;
+}

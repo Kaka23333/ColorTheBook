@@ -1,0 +1,17 @@
+<!--pages/discover/discover.wxml-->
+<view class="head">
+  <!-- 书摘 -->
+  <text class="excerpt">一句书摘</text>
+</view>
+
+<!-- 用户信息 -->
+<view class="user-info">
+  <!-- 昵称 -->
+  <text class="nickname">{{nickname}}</text>
+  <!-- 头像 -->
+  <image class="avatar" src="{{avatarUrl}}"></image>
+</view>
+
+<!-- 消息容器 -->
+<view class="news-container">
+</view>

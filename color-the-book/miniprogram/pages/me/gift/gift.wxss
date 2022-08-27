@@ -1,0 +1,38 @@
+/* pages/me/gift/gift.wxss */
+
+.gift-container {
+  height: 218rpx;
+  padding: 24rpx 20rpx;
+}
+
+.gift-img {
+  width: 324rpx;
+  height: 216rpx;
+  float: left;
+}
+
+.gift-info {
+  position: relative;
+  left: 20rpx;
+  top: 4rpx;
+}
+
+.name {
+  margin-top: 5rpx;
+  font-size: 40rpx;
+  font-family: "等线";
+  font-weight: bolder;
+}
+
+.desciption {
+  margin-top: 26rpx;
+  font-size: 30rpx;
+  /* font-family: "楷体"; */
+}
+
+.line {
+  width: 95%;
+  height: 1rpx;
+  border-top: solid #cccdce 1rpx;
+  margin: 0rpx 20rpx;
+}

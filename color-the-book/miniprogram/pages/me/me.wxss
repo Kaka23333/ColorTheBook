@@ -1,0 +1,121 @@
+/* pages/me/me.wxss */
+
+.container1 {
+  background-color: #F2F2F2;
+}
+
+.head-container {
+  display: flex;
+	/* justify-content: space-around; */
+  height: 240rpx;
+  /* background-color: #48a5db; */
+}
+
+.basic-info {
+  margin-top: 120rpx;
+  margin-left: 58rpx;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #48a5db; */
+}
+
+.nickname {
+  font-size: 63rpx;
+}
+
+.motto {
+  margin-top: 10rpx;
+  font-size: 23rpx;
+}
+
+.avatar-url {
+  margin-top: 120rpx;
+  position: absolute;
+  right: 50rpx;
+  width: 167rpx;
+  height: 167rpx;
+  border-radius: 15rpx;
+}
+
+.circle-container {
+  height: 100rpx;
+  /* background-color: lightpink; */
+}
+
+.circle-list {
+  margin-left: 40rpx;
+  margin-top: 120rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.circle {
+  margin-left: 20rpx;
+  border-radius: 50%;
+	width: 60rpx;
+  height: 60rpx;
+  background-color: lightgray;
+}
+
+.score {
+  position: absolute;
+  left: 385rpx;
+  top: 342rpx;
+  font-size: 60rpx;
+  color: rgb(199, 24, 24);
+}
+
+button::after {
+  border: none;
+}
+
+button {
+  position: absolute;
+  left: 570rpx;
+  top: 358rpx;
+  height: 66rpx;
+  font-size: 30rpx;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10rpx;
+  color:#ffffff;
+  background-color:#29912f;
+  border: 1px solid #29912f;
+}
+ 
+.option-container {
+  margin-top: 50rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  height: 600rpx;
+  background-color: white;
+  border-radius: 17rpx;
+  box-shadow: 7rpx 7rpx 7rpx #9c9393;
+}
+
+.option-list {
+  /* margin-top: 80rpx; */
+  position: relative;
+  top: 80rpx;
+  margin-bottom: 80rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  background-color: white;
+}
+
+.option {
+  display: flex;
+  flex-direction: row;
+  height: 110rpx;
+  /* background-color: lightsalmon; */
+}
+
+.option-img {
+  padding: 25rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.option-info {
+  padding: 25rpx;
+}

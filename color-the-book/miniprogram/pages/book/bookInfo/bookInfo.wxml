@@ -1,0 +1,25 @@
+<!--pages/book/bookInfo/bookInfo.wxml-->
+<view class="book-container">
+  <view class="book-info">
+    <image src="cloud://cloud1-5g4t93f9e48249bd.636c-cloud1-5g4t93f9e48249bd-1306655618/example/example_book.jpg" class="book-img"></image>
+    <view class="info">
+      <view class="name">也许你该找个人聊聊</view>
+      <view class="author">作者：[美]洛莉·戈特利布</view>
+      <view class="author">出版社：果麦文化</view>
+      <view class="author">出版年：2021-7-28</view>
+      <view class="author">页数：460</view>
+      <view class="author">ISBN：9787553522838</view>
+      <view class="author">藏书位置：西土城新书借阅室</view>
+      <view class="author">图书条码：21113002676904</view>
+    </view>
+  </view>
+  <view class="head">内容简介：</view>
+  <text class="intro" decode="{{true}}">
+    这是一位心理治疗师的回忆录，讲述了发生在诊室中的故事。在这个小小的密闭空间里，人们会展现出最真实、最脆弱的一面；也是在这里，人们获得了陪伴和倾听，也获得了宝贵的觉察、成长与改变。
+
+    在书中，我们会看到四个来访者的故事，他们是：
+    一个四十多岁、事业成功、自以为是，认为身边所有人都是蠢货的好莱坞制片人；一个三十多岁、刚刚新婚就被诊断出患有绝症，时日不多的大学女教师；一个六十九岁、离过三次婚，感觉孤独绝望，声称生活再不好转就要在七十岁生日当天自杀的老太太； 一个二十多岁、有原生家庭创伤和酗酒问题，在爱情中频频受挫的姑娘。
+
+    同时，书中还有第五个寻求帮助的人，那就是治疗师自己。她是一个单身的职场妈妈，四十多岁时遭遇失恋，几乎崩溃。有朋友对她说“或许你该找个人聊聊”，于是她也给自己找了一位心理治疗师。当她切换到来访者的位置，坐到另一位心理治疗师的沙发上诉说自己...
+  </text>
+</view>

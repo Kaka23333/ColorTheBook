@@ -1,0 +1,40 @@
+/* pages/book/bookInfo/bookInfo.wxss */
+
+.book-container {
+  margin: 30rpx 20rpx 20rpx 20rpx;
+}
+
+.book-img {
+  width: 270rpx;
+  height: 407rpx;
+  float: left;
+  margin-top: 8rpx;
+}
+
+.info {
+  position: relative;
+  left: 20rpx;
+}
+
+.name {
+  font-size: 44rpx;
+  font-family: "等线";
+  font-weight: bolder;
+}
+
+.author {
+  margin-top: 7rpx;
+}
+
+.head {
+  position: absolute;
+  top: 460rpx;
+  left: 20rpx;
+  font-size: 38srpx;
+}
+
+.intro {
+  position: absolute;
+  top: 480rpx;
+  left: 20rpx;
+}

@@ -1,0 +1,11 @@
+<!--pages/me/gift/gift.wxml-->
+<view wx:for="{{giftList}}">
+  <view class="gift-container">
+    <image class="gift-img" src="{{item.imgUrl}}"></image>
+    <view class="gift-info">
+      <view class="name">{{item.name}}</view>
+      <view class="desciption">{{item.description}}</view>
+    </view>
+  </view>
+  <view class="line"></view>
+</view>

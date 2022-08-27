@@ -1,0 +1,7 @@
+/* pages/me/book-calendar/book-calendar.wxss */
+
+.developing {
+  margin-top: 485rpx;
+  text-align: center;
+  font-size: 40rpx;
+}

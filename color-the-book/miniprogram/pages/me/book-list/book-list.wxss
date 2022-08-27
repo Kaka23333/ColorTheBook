@@ -1,0 +1,53 @@
+/* pages/me/book-list/book-list.wxss */
+
+.book-container {
+  height: 252rpx;
+  padding: 24rpx 20rpx;
+}
+
+.book-img {
+  width: 179rpx;
+  height: 252rpx;
+  float: left;
+}
+
+.book-info {
+  position: relative;
+  left: 30rpx;
+  top: 6rpx;
+}
+
+.title {
+  font-size: 36rpx;
+}
+
+.author {
+  margin-top: 6rpx;
+}
+
+.press {
+  margin-top: 6rpx;
+}
+
+.star-container {
+  margin-top: 8rpx;
+}
+
+.star {
+  width: 40rpx;
+  height: 40rpx;
+  float: left;
+}
+
+.rating {
+  position: relative;
+  left: 20rpx;
+  color: #ffac2d;
+}
+
+.line {
+  width: 95%;
+  height: 1rpx;
+  border-top: solid #cccdce 1rpx;
+  margin: 0rpx 20rpx;
+}

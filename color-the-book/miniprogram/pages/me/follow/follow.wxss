@@ -1,0 +1,7 @@
+/* pages/me/follow/follow.wxss */
+
+.developing {
+  margin-top: 485rpx;
+  text-align: center;
+  font-size: 40rpx;
+}

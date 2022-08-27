@@ -1,0 +1,43 @@
+/* pages/discover/discover.wxss */
+
+.head {
+  display: flex;
+  align-items: center;
+  height: 120rpx;
+  background-color: lightseagreen;
+}
+
+.excerpt {
+  padding: 60rpx;
+  font-size: 25rpx;
+}
+
+.user-info {
+  position: absolute;
+  top: 60rpx;
+  right: 40rpx;
+}
+
+.nickname {
+  position: relative;
+  top: -90rpx;
+  right: 10rpx;
+}
+
+.avatar {
+  width: 140rpx;
+  height: 140rpx;
+}
+
+.news-container {
+  height: 150rpx;
+  background-color: lightskyblue;
+}
+
+.option-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 0rpx 90rpx;
+  height: 60rpx;
+  background-color: lightsalmon;
+}

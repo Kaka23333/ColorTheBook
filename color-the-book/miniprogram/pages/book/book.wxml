@@ -1,0 +1,23 @@
+<!--pages/book/book.wxml-->
+<view class='page_row' bindtap="suo">
+    <view class="search">
+      <view class="df search_arr">
+        <icon class="searchcion" size='20' type='search'></icon>
+        <input bindinput="serach" model:value="{{like}}" class=""  placeholder="               作者/书名/" value="{{searchValue}}"/>
+      </view>
+    </view>
+  </view>
+
+  <view>
+    <view wx:if="{{book_list.length > 0}}" class="list">
+      <view wx:for="{{book_list}}" class="fur">
+        <view class='block2_1'>
+          <view class='block2_2' bindtap="navigate">
+            <image src="{{item.image_url}}"></image>
+            <view class="bottom">作者:{{item.author}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view wx:else class="book-not-found">哎呀，图书馆还没有这本书呢</view>
+  </view>
